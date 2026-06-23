@@ -20,11 +20,9 @@ tables and figures into `results/`.
 
 ## Scope
 
-The current workflow covers the conference-version result sections:
+The current workflow covers the result sections:
 
-- right-censored endpoint transition-matrix estimation;
-- diagnostic-only versus belief-updated state estimation;
+- Right-censored endpoint transition-matrix estimation.
+- Diagnostic-only versus the Markov-Diagnostic State-Fusion estimation.
 - CBR0 and CBR1 maintenance-cost results.
 
-Broader comparison results such as CBR1M, MLC, and the full three-TPM analysis
-are retained as supplementary material.
