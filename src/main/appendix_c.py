@@ -1,3 +1,5 @@
+"""Appendix C sensitivity analyses and result table generation."""
+
 from __future__ import annotations
 
 import json

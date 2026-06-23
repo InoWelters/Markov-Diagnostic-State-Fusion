@@ -1,3 +1,5 @@
+"""Right-censored transition-matrix estimation and supporting utilities."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass

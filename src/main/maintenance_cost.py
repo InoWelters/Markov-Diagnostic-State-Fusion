@@ -1,3 +1,5 @@
+"""Maintenance policy cost evaluation and threshold search utilities."""
+
 from __future__ import annotations
 
 from collections import Counter, OrderedDict

@@ -1,3 +1,5 @@
+"""State-estimation helpers for diagnostic and belief-updated inference."""
+
 from __future__ import annotations
 
 import hashlib

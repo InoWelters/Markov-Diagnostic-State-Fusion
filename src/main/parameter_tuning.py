@@ -1,3 +1,5 @@
+"""Alpha-beta tuning helpers for state-estimation weighting experiments."""
+
 from __future__ import annotations
 
 import json
