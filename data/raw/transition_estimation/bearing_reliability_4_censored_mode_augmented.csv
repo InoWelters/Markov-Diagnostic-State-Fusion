@@ -1,0 +1,101 @@
+bearing_id;observed_state;observed_time;is_failed;fault_mode;fault_mode_observed;fault_mode_source;hybrid_observation_type
+0;F;14;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+1;F;18;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+2;H;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+3;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+4;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+5;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+6;I1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+7;F;14;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+8;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+9;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+10;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+11;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+12;F;11;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+13;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+14;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+15;F;13;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+16;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+17;H;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+18;F;4;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+19;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+20;F;18;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+21;F;10;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+22;F;4;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+23;F;10;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+24;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+25;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+26;F;18;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+27;F;11;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+28;H;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+29;F;7;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+30;H;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+31;H;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+32;F;8;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+33;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+34;I2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+35;F;10;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+36;F;13;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+37;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+38;F;16;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+39;F;18;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+40;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+41;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+42;F;14;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+43;F;12;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+44;F;16;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+45;F;15;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+46;F;6;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+47;F;14;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+48;F;10;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+49;H;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+50;F;10;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+51;H;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+52;F;11;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+53;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+54;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+55;F;5;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+56;F;12;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+57;H;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+58;F;7;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+59;F;16;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+60;F;7;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+61;I2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+62;F;11;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+63;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+64;F;16;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+65;I2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+66;I2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+67;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+68;F;17;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+69;F;20;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+70;F;18;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+71;B2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+72;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+73;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+74;F;7;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+75;F;14;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+76;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+77;F;9;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+78;H;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+79;I2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+80;F;11;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+81;F;11;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+82;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+83;H;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+84;F;5;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+85;F;13;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+86;F;13;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+87;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+88;H;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+89;F;12;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode
+90;F;11;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+91;I1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+92;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+93;B2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+94;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+95;F;7;True;Inner race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+96;O2;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+97;F;8;True;Outer race;True;dataset1_full_trajectory;failed_time_with_fault_mode
+98;O1;20;False;;False;not_observed_for_censored_bearing;censored_endpoint_state
+99;F;12;True;Ball defect;True;dataset1_full_trajectory;failed_time_with_fault_mode

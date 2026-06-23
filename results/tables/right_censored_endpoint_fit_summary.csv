@@ -1,0 +1,11 @@
+quantity,value
+n_bearings,100
+n_rows,100
+n_failed,50
+n_censored,50
+termination_reason,converged
+converged,True
+n_iterations,908
+final_log_likelihood,-341.7368791146924
+tol,2e-06
+max_iter,2000

@@ -1,0 +1,7 @@
+C_C_over_C_P,policy,cost_rate,corrective_replacements
+2.0,Diagnostic-evidence,0.7299270072992701,0
+2.0,Corrected-belief,0.662005680576797,3
+5.0,Diagnostic-evidence,0.7299270072992701,0
+5.0,Corrected-belief,0.6816692156434345,3
+10.0,Diagnostic-evidence,0.7299270072992701,0
+10.0,Corrected-belief,0.7144417740878305,3

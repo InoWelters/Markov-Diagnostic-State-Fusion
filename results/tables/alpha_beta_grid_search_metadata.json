@@ -1,0 +1,18 @@
+{
+  "runs_input_path": "C:\\Users\\20202809\\1MIAC15\\0. Complete\\paper_reproducible_results\\data\\generated\\bearing_runs_to_failure.csv",
+  "runs_input_sha256": "6eef42558fabe586a989efba0f57234714cf2e367a2fdc43db9ff99cb46d51b2",
+  "confusion_matrix_path": "C:\\Users\\20202809\\1MIAC15\\0. Complete\\paper_reproducible_results\\data\\raw\\diagnostics\\Confusion_Matrix.csv",
+  "confusion_matrix_sha256": "91418b345f7c23e71b8e0855278a1d04385163299c1dad84051a8465ee719004",
+  "transition_matrix_path": "C:\\Users\\20202809\\1MIAC15\\0. Complete\\paper_reproducible_results\\data\\transition_matrices\\right_censored_endpoint.csv",
+  "transition_matrix_sha256": "38e48f4451b0c25db8c08922d86fc3ddd9b890da95402ef6b52ccd6fc6602f74",
+  "prediction_seed": 42,
+  "train_fraction": 0.7,
+  "alpha_min": 0.0,
+  "alpha_max": 2.0,
+  "alpha_step": 0.2,
+  "beta_min": 0.0,
+  "beta_max": 2.0,
+  "beta_step": 0.2,
+  "epsilon_g": 0.0001,
+  "selection_objective": "training_state_estimation_accuracy"
+}
