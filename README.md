@@ -10,7 +10,6 @@ main.ipynb                  # executed paper-results notebook
 data/                       # raw inputs, generated inputs, transition matrices
 src/main/                   # local analysis modules used by the notebook
 results/                    # generated tables and figures
-paper/                      # manuscript PDF
 ```
 
 ## Reproduce
