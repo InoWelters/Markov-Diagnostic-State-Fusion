@@ -1,0 +1,9 @@
+state,fault_mode,severity,interpretation
+H,none,0,healthy
+O1,outer race,1,mild outer-race degradation
+O2,outer race,2,advanced outer-race degradation
+I1,inner race,1,mild inner-race degradation
+I2,inner race,2,advanced inner-race degradation
+B1,ball defect,1,mild ball-defect degradation
+B2,ball defect,2,advanced ball-defect degradation
+F,failed,3,absorbing failure state

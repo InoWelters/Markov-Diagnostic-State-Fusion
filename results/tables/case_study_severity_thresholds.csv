@@ -1,0 +1,7 @@
+fault_mode,state,severity_level,severity_label,fault_length_interval_mm,physical_stage
+outer race,O1,1,mild / pre-accelerated,0 <= Delta l < 0.5,initial plus slow evolution
+outer race,O2,2,advanced / accelerated,0.5 <= Delta l <= 0.8,accelerated evolution
+inner race,I1,1,mild / pre-accelerated,0 <= Delta l < 0.5,initial plus slow evolution
+inner race,I2,2,advanced / accelerated,0.5 <= Delta l <= 0.8,accelerated evolution
+ball defect,B1,1,mild / pre-accelerated,0 <= Delta l < 0.5,initial plus slow evolution
+ball defect,B2,2,advanced / accelerated,0.5 <= Delta l <= 0.8,accelerated evolution
