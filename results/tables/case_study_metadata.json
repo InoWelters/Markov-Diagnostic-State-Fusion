@@ -1,0 +1,30 @@
+{
+  "schema": "case_study_v1",
+  "state_order": [
+    "H",
+    "O1",
+    "O2",
+    "I1",
+    "I2",
+    "B1",
+    "B2",
+    "F"
+  ],
+  "internal_state_order": [
+    "H",
+    "O_1",
+    "O_2",
+    "I_1",
+    "I_2",
+    "B_1",
+    "B_2",
+    "F"
+  ],
+  "dataset4_path": "C:\\Users\\20202809\\1MIAC15\\0. Complete\\paper_reproducible_results\\data\\raw\\transition_estimation\\bearing_reliability_4_censored_mode_augmented.csv",
+  "dataset4_sha256": "0281f1229b6d8d0c12a7b9d5cea61dc1977ba9d5169cc60df4fa052596e42bd9",
+  "runs_input_path": "C:\\Users\\20202809\\1MIAC15\\0. Complete\\paper_reproducible_results\\data\\generated\\bearing_runs_to_failure.csv",
+  "runs_input_sha256": "6eef42558fabe586a989efba0f57234714cf2e367a2fdc43db9ff99cb46d51b2",
+  "train_fraction": 0.7,
+  "p0_source": "Parent TPM_generation.py benchmark fully observed/transition-time matrix.",
+  "severity_source": "Draft Section 4.1.1 / conference Section 3.1, based on Zheng et al. (2024)."
+}
