@@ -282,6 +282,26 @@ def generate_state_estimation_predictions(
 
     return pd.DataFrame(rows)
 
+def generate_unweighted_bayes_predictions(
+    runs_input_path: Path,
+    confusion_matrix_path: Path,
+    transition_matrix_path: Path,
+    *,
+    seed: int,
+) -> pd.DataFrame:
+    """
+    This function generates the unweighted Bayes-rule posterior baseline.
+    """
+    return generate_state_estimation_predictions(
+        runs_input_path=runs_input_path,
+        confusion_matrix_path=confusion_matrix_path,
+        transition_matrix_path=transition_matrix_path,
+        seed=seed,
+        alpha=1.0,
+        beta=1.0,
+        epsilon_g=0.0,
+    )
+
 def numeric_or_text_key(value: object) -> tuple[int, int | str]:
     """
     This function creates a sortable key that orders numeric identifiers before text identifiers.
