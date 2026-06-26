@@ -1,3 +1,4 @@
 policy,parameters,cost_rate,ECC,ECL,total_cost,total_cycle_length,cycles,preventive_replacements,corrective_replacements,censored_cycles,inspections,inspection_cost,preventive_cost,corrective_cost
 CBR0,eta_O=0.5; eta_I=0.9; eta_B=0.9; train_fraction=0.7; train_cycles=700; evaluation_cycles=300,0.7299270072992701,10.0,13.7,3000.0,4110,300,300,0,0,0,2.0,10.0,50.0
+CBR1-Bayes,alpha=1; beta=1; eta_O=0.4; eta_I=0.8; eta_B=0.9; train_fraction=0.7; train_cycles=700; evaluation_cycles=300,0.7211319032405294,10.533333333333333,14.606666666666667,3160.0,4382,300,296,4,0,0,2.0,10.0,50.0
 CBR1,alpha=1; beta=1.8; eta_O=0.4; eta_I=0.9; eta_B=0.9; train_fraction=0.7; train_cycles=700; evaluation_cycles=300,0.6816692156434345,10.4,15.256666666666666,3120.0,4577,300,297,3,0,0,2.0,10.0,50.0

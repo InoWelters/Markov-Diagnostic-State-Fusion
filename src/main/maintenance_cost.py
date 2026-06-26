@@ -18,8 +18,6 @@ MODE_SECOND_STAGE = {
     "B": "B_2",
 }
 
-from main import state_estimation as se
-
 
 @dataclass(frozen=True)
 class CostParameters:
@@ -434,9 +432,13 @@ def policy_summary(
     alpha: float,
     beta: float,
     costs: CostParameters,
+    baseline_predictions: pd.DataFrame | None = None,
 ) -> pd.DataFrame:
     """
-    This function compares diagnostic-only and belief-updated maintenance policies in one summary table.
+    This function compares diagnostic-only and belief-updated maintenance policies.
+
+    When baseline predictions are provided, the comparison also includes the unweighted Bayes posterior
+    under the same threshold grid, costs, and split.
     """
 
     # Build bearing-level runs from the state-estimation predictions and diagnostic confusion data.
@@ -463,4 +465,27 @@ def policy_summary(
         alpha=alpha,
         beta=beta,
     )
-    return pd.DataFrame([evaluation_row(cbr0, costs), evaluation_row(cbr1, costs)])
+
+    evaluations = [cbr0]
+    if baseline_predictions is not None:
+        baseline_runs = prediction_runs(baseline_predictions, probabilities)
+        baseline_train_runs, baseline_evaluation_runs = split_runs(baseline_runs, train_fraction)
+        if (
+            list(train_runs) != list(baseline_train_runs)
+            or list(evaluation_runs) != list(baseline_evaluation_runs)
+        ):
+            raise ValueError("Baseline and tuned posterior policies use different bearing splits.")
+        cbr1_bayes = optimize_threshold_policy(
+            baseline_train_runs,
+            baseline_evaluation_runs,
+            policy="CBR1-Bayes",
+            source="posterior",
+            costs=costs,
+            train_fraction=train_fraction,
+            alpha=1.0,
+            beta=1.0,
+        )
+        evaluations.append(cbr1_bayes)
+    evaluations.append(cbr1)
+
+    return pd.DataFrame([evaluation_row(evaluation, costs) for evaluation in evaluations])
