@@ -1,4 +1,4 @@
-# Paper Reproducible Results
+# Markov-Diagnostic State-Fusion
 
 This repository contains the notebook, data, and generated outputs used to
 reproduce the study's results.
